@@ -1,10 +1,10 @@
 {
-    "name": "Selvania-Launcher",
-    "preductname": "Selvania Launcher",
-    "version": "1.0.5",
-    "description": "Launcher Mincraft custom (crack, premium)",
+    "name": "DestinyRpg-Launcher",
+    "preductname": "DestinyRpg Launcher",
+    "version": "1.0.9",
+    "description": "Launcher Minecraft DestinyRpg",
     "main": "src/app.js",
-    "author": "Luuxis",
+    "author": "iSoul",
     "url": "http://144.217.65.94:25566",
     "engines": {
         "node": "16.x.x"
