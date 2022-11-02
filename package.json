@@ -1,7 +1,7 @@
 {
     "name": "DestinyRpg-Launcher",
     "preductname": "DestinyRpg Launcher",
-    "version": "1.0.8",
+    "version": "1.0.7",
     "description": "Launcher Minecraft DestinyRpg",
     "main": "src/app.js",
     "author": "iSoul",
