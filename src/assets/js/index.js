@@ -23,7 +23,7 @@ class Splash {
     async startAnimation() {
         let splashes = [
             { "message": "Instalando RPG...", "author": "iSoul" },
-            { "message": "Detectando xRay...", "author": "iSoul" },
+            { "message": "Cargando Mods...", "author": "iSoul" },
             { "message": "Cargando Launcher...", "author": "iSoul" }
         ]
         let splash = splashes[Math.floor(Math.random() * splashes.length)];
@@ -49,7 +49,7 @@ class Splash {
         ipcRenderer.invoke('update-app').then(err => {
             if (err.error) {
                 let error = err.message;
-                this.shutdown(`error al buscar actualizacion :<br>${error}`);
+                this.shutdown(`Error al buscar actualizacion :<br>${error}`);
             }
         })
 
