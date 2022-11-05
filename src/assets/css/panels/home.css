@@ -309,3 +309,67 @@
 .online.off {
     background-color: #FF0409;
 }
+
+/* Configuracion botones Social */
+
+.button {
+    position: absolute;
+    top: 237px;
+    right: 50px;
+    width: 200px;
+    height: 37px;
+    background: #292929;
+    color: white;
+    font: normal normal bold 25px/25px Poppins;
+    margin: auto;
+    padding: 22px 52px 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: opacity 1s;
+    opacity: .4;
+   }
+
+.button:hover {
+    transition: opacity 1s;
+    opacity: 1;
+}
+
+.button-img {
+    position: absolute;
+    top: 9px;
+    right: 180px;
+    width: 50px;
+    height: 55px;
+}
+
+.button2 {
+    position: absolute;
+    top: 337px;
+    right: 50px;
+    width: 200px;
+    height: 37px;
+    background: #292929;
+    color: white;
+    font: normal normal bold 25px/25px Poppins;
+    margin: 20px;
+    padding: 22px 22px 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: opacity 1s;
+    opacity: .4;
+   }
+
+.button2:hover {
+    transition: opacity 1s;
+    opacity: 1;
+}
+
+.button2-img {
+    position: absolute;
+    top: 9px;
+    right: 180px;
+    width: 50px;
+    height: 0px;
+}
