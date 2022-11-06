@@ -1,10 +1,10 @@
 {
-    "name": "destinyrpg",
-    "preductname": "DestinyRpg Launcher",
+    "name": "DestinyRPG-Launcher",
+    "preductname": "DestinyRPG-Launcher",
     "version": "1.0.7",
-    "description": "Launcher Minecraft DestinyRpg",
+    "description": "Launcher Mincraft for UTrosh",
     "main": "src/app.js",
-    "author": "iSoul",
+    "author": "iSoul-Es",
     "url": "http://144.217.65.94:25566",
     "engines": {
         "node": "16.x.x"
@@ -21,7 +21,8 @@
     "dependencies": {
         "electron-updater": "^5.0.1",
         "minecraft-java-core": "^2.4.1",
-        "node-fetch": "^2.6.7"
+        "node-fetch": "^2.6.7",
+        "shell": "^0.9.4"
     },
     "devDependencies": {
         "cross-env": "^7.0.3",
