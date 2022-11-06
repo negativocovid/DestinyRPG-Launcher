@@ -24,6 +24,7 @@ class Home {
         this.initLaunch();
         this.initStatusServer();
         this.initBtn();
+        this.dynmapbtn()
         this.discordbtn()
         this.websitebtn()
     }
@@ -87,6 +88,11 @@ class Home {
             // news.appendChild(blockNews);
         }
     }
+    async dynmapbtn() {
+        document.querySelector('.dynmap').addEventListener('click', async() => {
+            require('electron').shell.openExternal("http://144.217.65.58:30021")
+        })}
+    
     async discordbtn() {
     document.querySelector('.git').addEventListener('click', async() => {
         require('electron').shell.openExternal("https://discord.gg/bUXXsKGnXH")
