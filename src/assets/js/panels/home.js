@@ -88,12 +88,12 @@ class Home {
         }
     }
     async discordbtn() {
-    document.querySelector('.discord-btn').addEventListener('click', async() => {
+    document.querySelector('.git').addEventListener('click', async() => {
         require('electron').shell.openExternal("https://discord.gg/bUXXsKGnXH")
     })}
 
     async websitebtn() {
-        document.querySelector('.web-btn').addEventListener('click', async() => {
+        document.querySelector('.web').addEventListener('click', async() => {
             require('electron').shell.openExternal("http://144.217.65.94:25566")
         })}
 
