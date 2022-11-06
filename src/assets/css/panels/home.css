@@ -143,7 +143,7 @@
 .news-block {
     margin-bottom: 1rem;
     transition: opacity 1s;
-    opacity: .4;
+    opacity: .8;
 }
 
 .news-block:hover {
@@ -251,7 +251,7 @@
     background-color: #292929;
     border-radius: 10px;
     transition: opacity 1s;
-    opacity: .4;
+    opacity: .8;
 }
 
 .server:hover {
@@ -332,9 +332,7 @@
     background-color: #FF0409;
 }
 
-/* Configuracion botones Social */
-
-git {
+.git {
     margin-block: 150px;
     position: relative;
     width: 100%;

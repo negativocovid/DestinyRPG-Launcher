@@ -2,9 +2,9 @@
     "name": "DestinyRPG-Launcher",
     "preductname": "DestinyRPG-Launcher",
     "version": "1.0.7",
-    "description": "Launcher Mincraft for UTrosh",
+    "description": "Launcher Mincraft for iSoul",
     "main": "src/app.js",
-    "author": "iSoul-Es",
+    "author": "iSoul",
     "url": "http://144.217.65.94:25566",
     "engines": {
         "node": "16.x.x"
@@ -32,6 +32,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/iSoul-Es/Selvania-Launcher.git"
+        "url": "git+https://github.com/iSoul-Es/DestinyRPG-Launcher.git"
     }
 }
