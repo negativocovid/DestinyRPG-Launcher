@@ -6,8 +6,6 @@
 'use strict';
 
 // libs 
-<script src="/js/vegas/vegas.min.js"></script>
-
 const fs = require('fs');
 const { Microsoft, Mojang } = require('minecraft-java-core');
 const { ipcRenderer } = require('electron');
