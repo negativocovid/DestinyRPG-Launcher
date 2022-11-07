@@ -8,12 +8,31 @@
 }
 
 body {
-    background-image: url(https://i.imgur.com/Bbl4Ofb.gif);
-    background-size: cover;
+    width: 100%;
     height: 100vh;
-    padding:0;
-    margin:0;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: slideBg 8s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+    background-image: url(https://i.imgur.com/RnmHofM.jpeg);
 }
+
+@keyframes slideBg {
+    0%,100% {
+        background-image: url(https://i.imgur.com/RnmHofM.jpeg);
+    }
+    25% {
+        background-image: url(https://i.imgur.com/eOf8CCl.jpeg);
+    }
+    50% {
+        background-image: url(https://i.imgur.com/pBLO7NW.jpeg);
+    }
+    75% {
+        background-image: url(https://i.imgur.com/DV6O4Km.jpeg);
+    }
+  }
+
 
 img {
     -webkit-user-drag: none;
