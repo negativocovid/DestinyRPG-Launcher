@@ -2,7 +2,7 @@
     "name": "DestinyRPG-Launcher",
     "preductname": "DestinyRPG-Launcher",
     "version": "1.0.8",
-    "description": "Launcher Mincraft for iSoul",
+    "description": "Launcher Mincraft por iSoul",
     "main": "src/app.js",
     "author": "iSoul",
     "url": "http://144.217.65.94:25566",
