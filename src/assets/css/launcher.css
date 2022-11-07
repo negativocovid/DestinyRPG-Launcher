@@ -13,23 +13,25 @@ body {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    animation: slideBg 8s linear infinite 0s;
+    animation: slideBg 15s linear infinite 0s;
     animation-timing-function: ease-in-out;
-    background-image: url(https://i.imgur.com/RnmHofM.jpeg);
+    padding:0;
+    margin:0;
+    background-image: url("../images/background/fondo1.webp");
 }
 
 @keyframes slideBg {
     0%,100% {
-        background-image: url(https://i.imgur.com/RnmHofM.jpeg);
+        background-image: url("../images/background/fondo1.webp");
     }
     25% {
-        background-image: url(https://i.imgur.com/eOf8CCl.jpeg);
+        background-image: url("../images/background/fondo2.webp");
     }
     50% {
-        background-image: url(https://i.imgur.com/pBLO7NW.jpeg);
+        background-image: url("../images/background/fondo3.webp");
     }
     75% {
-        background-image: url(https://i.imgur.com/DV6O4Km.jpeg);
+        background-image: url("../images/background/fondo4.webp");
     }
   }
 
