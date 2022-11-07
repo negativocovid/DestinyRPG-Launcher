@@ -100,7 +100,7 @@ class Home {
 
     async websitebtn() {
         document.querySelector('.web').addEventListener('click', async() => {
-            require('electron').shell.openExternal("http://144.217.65.94:25566")
+            require('electron').shell.openExternal("https://destinyservers.wixsite.com/destinyrpg")
         })}
 
     async initLaunch() {
