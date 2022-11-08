@@ -16,7 +16,7 @@
         state: `Iniciando una Aventura!`,
         startTimestamp: Date.now(),
         largeImageKey: 'logo-destiny',
-        largeImageText: `Imagen Grande`,
+        largeImageText: `Minecraft DestinyRPG`,
         instance: false,
         buttons: [
             {
