@@ -3,6 +3,44 @@
  * @license CC-BY-NC 4.0 - https://creativecommons.org/licenses/by-nc/4.0/
  */
 
+ const clientId = '1039548864618831872';
+ const DiscordRPC = require('discord-rpc');
+ const RPC = new DiscordRPC.Client({ transport: 'ipc'});
+ 
+ DiscordRPC.register(clientId);
+
+ async function setActivity() {
+    if (!RPC) return;
+    RPC.setActivity({
+        details: `Servidor Minecraft Rol`,
+        state: `Iniciando una Aventura!`,
+        startTimestamp: Date.now(),
+        largeImageKey: 'logo-destiny',
+        largeImageText: `Imagen Grande`,
+        instance: false,
+        buttons: [
+            {
+                label: `Discord DestinyRPG`,
+                url: `https://discord.gg/bUXXsKGnXH`,
+            },
+            {
+                label: `Youtube DestinyRPG`,
+                url: `https://www.youtube.com/channel/UC5uKqUqfw-EfDZCRA88u5Mg`,
+            }
+        ]
+    });
+ };
+
+RPC.on('ready', async () => {
+    setActivity();
+
+    setInterval(() => {
+        setActivity();
+    }, 86400 * 1000);
+});
+
+RPC.login({ clientId }).catch(err => console.error(err));
+
 const { app, ipcMain } = require('electron');
 const { Microsoft } = require('minecraft-java-core');
 const { autoUpdater } = require('electron-updater')
