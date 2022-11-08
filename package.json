@@ -10,7 +10,7 @@
         "node": "16.x.x"
     },
     "scripts": {
-        "start": "cross-env-shell NODE_ENV=dev electron .",
+        "start": "env-cmd electron .",
         "build": "node build.js",
         "dev": "nodemon --exec npm start"
     },
