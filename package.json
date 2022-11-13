@@ -1,7 +1,7 @@
 {
     "name": "DestinyRPG-Launcher",
     "preductname": "DestinyRPG-Launcher",
-    "version": "1.0.9",
+    "version": "1.1.0",
     "description": "Launcher Mincraft por iSoul",
     "main": "src/app.js",
     "author": "iSoul",
