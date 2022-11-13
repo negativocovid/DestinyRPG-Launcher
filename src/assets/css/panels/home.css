@@ -37,6 +37,8 @@
     border: none;
     border-radius: 15px;
     transition: all 0.5s cubic-bezier(1, 0.46, 0, 1.29);
+    background: #313eee;
+    color: #F1F1F1;
 }
 
 .settings-btn:hover {
@@ -97,11 +99,11 @@
     height: 37px;
     border-radius: 20px;
     border: none;
-    background: #242ebe;
+    background: #313eee;
     font: normal normal bold 20px/25px Poppins;
-    color: #121212;
+    color: #ece2e2;
     margin: 15px 0;
-    box-shadow: 0 0 5px #00bd7a;
+    box-shadow: 0 0 5px #313eee;
 }
 
 .download-content {
