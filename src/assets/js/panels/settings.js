@@ -70,7 +70,7 @@ class Settings {
         document.getElementById("free-ram").textContent = `${freeMem} RAM`;
 
         let sliderDiv = document.querySelector(".memory-slider");
-        sliderDiv.setAttribute("max", Math.trunc((80 * totalMem) / 100));
+        sliderDiv.setAttribute("max", Math.trunc((100 * totalMem) / 95));
 
         let ram = ramDatabase ? ramDatabase : { ramMin: "1", ramMax: "2" };
         let slider = new Slider(".memory-slider", parseFloat(ram.ramMin), parseFloat(ram.ramMax));
