@@ -1,10 +1,10 @@
 {
-    "name": "DestinyRPG-Launcher",
-    "preductname": "DestinyRPG-Launcher",
+    "name": "DarkTeam",
+    "preductname": "DarkTeam-Launcher",
     "version": "1.1.4",
-    "description": "Launcher Mincraft por iSoul",
+    "description": "Launcher Mincraft por DarkTeam",
     "main": "src/app.js",
-    "author": "iSoul",
+    "author": "",
     "url": "http://144.217.65.94:25566",
     "engines": {
         "node": "16.x.x"
@@ -34,6 +34,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/iSoul-Es/DestinyRPG-Launcher.git"
+        "url": "git+https://github.com/negativocovid/DestinyRPG-Launcher.git"
     }
 }
